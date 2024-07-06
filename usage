@@ -1,0 +1,9 @@
+Adding a User
+To add a new user and assign to a group:
+
+./user_group_management.sh add_user username group_name
+
+Setting Permissions
+To set user permissions on a directory:
+
+./user_group_management.sh set_permissions username /path/to/directory
