@@ -9,7 +9,10 @@ This project provides a Bash script to automate the creation and management of u
 - Set user permissions on directories
 
 ## Script Usage
-### Adding a Group
+### Adding a Group & Setting Permisions
 To add a new group:
 ```bash
 ./user_group_management.sh add_group group_name
+
+To set user permissions on a directory:
+./user_group_management.sh set_permissions username /path/to/directory
