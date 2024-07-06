@@ -1,0 +1,3 @@
+To set user permissions on a directory:
+
+./user_group_management.sh set_permissions username /path/to/directory
